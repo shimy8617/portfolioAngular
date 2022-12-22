@@ -6,5 +6,15 @@
     padding: 10px;
 }
 
-/* .container img {
-} */
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding: 1rem;
+}
+
+fa-icon {
+    padding: 0.5rem;
+}
