@@ -4,11 +4,20 @@
     color:rgb(0, 0, 0);
     text-transform: uppercase;
 }
-
-.educationDesc {
+.educationRow {
     padding: 0.5rem 2rem;
+}
+.educationDesc {
+    position: relative;
+    padding: 1rem;
 }
 
 .educationDesc2 {
-    padding: 0.5rem 2rem;
+    position: relative;
+    padding: 1rem;
+}
+
+.facircle {
+    font-size: 9px;
+    padding: 1rem;
 }

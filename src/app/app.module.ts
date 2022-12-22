@@ -29,6 +29,13 @@ import { ProjectsComponent } from './components/projects/projects.component';
     FontAwesomeModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,
+    HeaderComponent,
+    BannerComponent,
+    ProfileComponent,
+    ExperienceComponent,
+    EducationComponent,
+    SoftSkillsComponent,
+    ProjectsComponent]
 })
 export class AppModule { }

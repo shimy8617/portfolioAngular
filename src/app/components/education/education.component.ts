@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-education',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./education.component.css']
 })
 export class EducationComponent {
+  faCircle = faCircle;
 
 }

@@ -14,6 +14,10 @@
     padding: 2rem 0;
 }
 
+.experienceRow {
+    padding: 0.5rem 2rem;
+}
+
 .experienceTitle {
     font-weight: 600;
     padding: 0.5rem 2rem;
@@ -23,9 +27,11 @@
 
 .experienceDesc {
     position: relative;
-    padding: 0.5rem 2rem;
+    padding: 1rem;
 }
 
-.experienceDesc2 {
-    padding: 0.5rem 2rem;
+
+.facircle {
+    font-size: 9px;
+    padding: 1rem;
 }
