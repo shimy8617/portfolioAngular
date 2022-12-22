@@ -1,0 +1,14 @@
+.educationTitle {
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.educationDesc {
+    padding: 0.5rem 2rem;
+}
+
+.educationDesc2 {
+    padding: 0.5rem 2rem;
+}

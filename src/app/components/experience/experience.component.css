@@ -1,0 +1,31 @@
+.btn-editExp {
+    position: absolute;
+    top: -2rem;
+    right: 5rem;
+}
+
+.btn-deleteExp {
+    position: absolute;
+    top: -2rem;
+    right: 3rem;
+}
+
+.experience {
+    padding: 2rem 0;
+}
+
+.experienceTitle {
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.experienceDesc {
+    position: relative;
+    padding: 0.5rem 2rem;
+}
+
+.experienceDesc2 {
+    padding: 0.5rem 2rem;
+}
