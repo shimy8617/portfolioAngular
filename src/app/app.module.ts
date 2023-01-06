@@ -6,18 +6,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { ProfileComponent } from './components/profile/profile.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
 import { SoftSkillsComponent } from './components/soft-skills/soft-skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BannerComponent,
-    ProfileComponent,
     ExperienceComponent,
     EducationComponent,
     SoftSkillsComponent,
@@ -26,13 +25,14 @@ import { ProjectsComponent } from './components/projects/projects.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgbModule
   ],
   providers: [],
-  bootstrap: [AppComponent,
+  bootstrap: [
+    AppComponent,
     HeaderComponent,
     BannerComponent,
-    ProfileComponent,
     ExperienceComponent,
     EducationComponent,
     SoftSkillsComponent,

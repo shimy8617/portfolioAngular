@@ -1,16 +1,51 @@
-<div class="p-5 mb-4 bg-light rounded-3 banner">
-  <div class="btn-edit">
-    <button class="btn-editPen" type="button">
-      <fa-icon [icon]="faPen"></fa-icon>
-    </button>
+<div class="card mt-3" style="max-width: 100%">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../../assets/me.jpg" class="img-fluid" alt="..." />
+    </div>
+    <div class="col-md-8">
+      <div class="text-center profile lh-lg">
+        <div class="row text-center profileDesc">
+          <div class="btn-editName" onclick="changeName()">
+            <button class="btn-editPen" type="button">
+              <fa-icon [icon]="faPen"></fa-icon>
+            </button>
+          </div>
+          <div class="profileName">
+            <h2>Cristina Elisabet<span> Shim</span></h2>
+          </div>
+          <div>
+            <input
+              id="editName"
+              type="text"
+              oninput="newName(this.value)"
+              style="display: none"
+            />
+          </div>
+        </div>
+        <div class="row bio">
+          <div class="btn-editBio" onclick="changeBio()">
+            <button class="btn-editPen" type="button">
+              <fa-icon [icon]="faPen"></fa-icon>
+            </button>
+          </div>
+          <div class="bioText">
+            I'm from Buenos Aires, Argentina. I'm a React developer Jr and very
+            passionate about technology, coding and learning new things.
+          </div>
+          <div>
+            <input
+              id="editBio"
+              type="text"
+              oninput="newBio(this.value)"
+              style="display: none"
+            />
+          </div>
+          <div>
+            <input type="file" id="file1" onchange="showFile(this)" />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="container-fluid py-5 quote">
-    <h1 class="display-5 text-center">
-      <fa-icon class="quotationMark" [icon]="faQuoteLeft"></fa-icon>
-      If you want to change your world, you need to start cultivating good
-      habits.
-      <fa-icon class="quotationMark" [icon]="faQuoteRight"></fa-icon>
-    </h1>
-  </div>
-  <img src="../../assets/me.jpg" class="img-fluid" alt="..." />
 </div>

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faQuoteLeft, faQuoteRight, faPen } from '@fortawesome/free-solid-svg-icons';
+import { faPen, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -8,8 +8,7 @@ import { faQuoteLeft, faQuoteRight, faPen } from '@fortawesome/free-solid-svg-ic
   styleUrls: ['./banner.component.css']
 })
 export class BannerComponent {
-  faQuoteLeft =  faQuoteLeft;
-  faQuoteRight = faQuoteRight;
   faPen = faPen;
+  faTimes=faTimes;
 
 }
