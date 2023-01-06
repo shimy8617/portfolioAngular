@@ -8,17 +8,14 @@
     top: 1rem;
 }
 
-.btn-style {
+.btn-editPen {
     border: none;
-    background-color: transparent;
-}
-
-.btn-style i{
     border-radius: 50%;
-    padding: 8px;
     color: #fff;
     background-color: rgb(0, 206, 127);
     font-size: 13px;
+    height: 30px;
+    width: 30px;
 }
 
 .profileName{
